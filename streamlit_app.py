@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 # Load the pre-trained model
 model = joblib.load('salary_pred_model.joblib')
 
-dataset = pd.read_csv(r"C:\Users\Sakal Times\Downloads\salary_data\Salary_Data_Based_country_and_race.csv")
+dataset = pd.read_csv("Salary_Data_Based_country_and_race.csv")
 
 # Function to predict salary
 def predict_salary(age, gender, education_level, years_of_experience, job_title):
